@@ -18,6 +18,8 @@
 		093D784718F12BF700EF3012 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 093D782618F12BF700EF3012 /* Cocoa.framework */; };
 		093D784F18F12BF700EF3012 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 093D784D18F12BF700EF3012 /* InfoPlist.strings */; };
 		093D785118F12BF700EF3012 /* HelloLocalNotificationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 093D785018F12BF700EF3012 /* HelloLocalNotificationTests.m */; };
+		093D785F18F12C7100EF3012 /* MainWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 093D785D18F12C7100EF3012 /* MainWindowController.m */; };
+		093D786018F12C7100EF3012 /* MainWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 093D785E18F12C7100EF3012 /* MainWindowController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +52,9 @@
 		093D784C18F12BF700EF3012 /* HelloLocalNotificationTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HelloLocalNotificationTests-Info.plist"; sourceTree = "<group>"; };
 		093D784E18F12BF700EF3012 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		093D785018F12BF700EF3012 /* HelloLocalNotificationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloLocalNotificationTests.m; sourceTree = "<group>"; };
+		093D785C18F12C7100EF3012 /* MainWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainWindowController.h; sourceTree = "<group>"; };
+		093D785D18F12C7100EF3012 /* MainWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainWindowController.m; sourceTree = "<group>"; };
+		093D785E18F12C7100EF3012 /* MainWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainWindowController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,9 +120,10 @@
 		093D782C18F12BF700EF3012 /* HelloLocalNotification */ = {
 			isa = PBXGroup;
 			children = (
+				093D785B18F12C6100EF3012 /* Controllers */,
+				093D785A18F12C5900EF3012 /* Resouces */,
 				093D783818F12BF700EF3012 /* bearAppDelegate.h */,
 				093D783918F12BF700EF3012 /* bearAppDelegate.m */,
-				093D783B18F12BF700EF3012 /* MainMenu.xib */,
 				093D783E18F12BF700EF3012 /* Images.xcassets */,
 				093D782D18F12BF700EF3012 /* Supporting Files */,
 			);
@@ -152,6 +158,24 @@
 				093D784D18F12BF700EF3012 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		093D785A18F12C5900EF3012 /* Resouces */ = {
+			isa = PBXGroup;
+			children = (
+				093D785E18F12C7100EF3012 /* MainWindowController.xib */,
+				093D783B18F12BF700EF3012 /* MainMenu.xib */,
+			);
+			name = Resouces;
+			sourceTree = "<group>";
+		};
+		093D785B18F12C6100EF3012 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				093D785C18F12C7100EF3012 /* MainWindowController.h */,
+				093D785D18F12C7100EF3012 /* MainWindowController.m */,
+			);
+			name = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,6 +259,7 @@
 				093D783F18F12BF700EF3012 /* Images.xcassets in Resources */,
 				093D783718F12BF700EF3012 /* Credits.rtf in Resources */,
 				093D783D18F12BF700EF3012 /* MainMenu.xib in Resources */,
+				093D786018F12C7100EF3012 /* MainWindowController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,6 +278,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				093D785F18F12C7100EF3012 /* MainWindowController.m in Sources */,
 				093D783A18F12BF700EF3012 /* bearAppDelegate.m in Sources */,
 				093D783318F12BF700EF3012 /* main.m in Sources */,
 			);
