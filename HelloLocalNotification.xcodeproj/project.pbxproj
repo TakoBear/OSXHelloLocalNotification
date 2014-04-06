@@ -1,0 +1,482 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		093D782718F12BF700EF3012 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 093D782618F12BF700EF3012 /* Cocoa.framework */; };
+		093D783118F12BF700EF3012 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 093D782F18F12BF700EF3012 /* InfoPlist.strings */; };
+		093D783318F12BF700EF3012 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 093D783218F12BF700EF3012 /* main.m */; };
+		093D783718F12BF700EF3012 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 093D783518F12BF700EF3012 /* Credits.rtf */; };
+		093D783A18F12BF700EF3012 /* bearAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 093D783918F12BF700EF3012 /* bearAppDelegate.m */; };
+		093D783D18F12BF700EF3012 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 093D783B18F12BF700EF3012 /* MainMenu.xib */; };
+		093D783F18F12BF700EF3012 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 093D783E18F12BF700EF3012 /* Images.xcassets */; };
+		093D784618F12BF700EF3012 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 093D784518F12BF700EF3012 /* XCTest.framework */; };
+		093D784718F12BF700EF3012 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 093D782618F12BF700EF3012 /* Cocoa.framework */; };
+		093D784F18F12BF700EF3012 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 093D784D18F12BF700EF3012 /* InfoPlist.strings */; };
+		093D785118F12BF700EF3012 /* HelloLocalNotificationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 093D785018F12BF700EF3012 /* HelloLocalNotificationTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		093D784818F12BF700EF3012 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 093D781B18F12BF700EF3012 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 093D782218F12BF700EF3012;
+			remoteInfo = HelloLocalNotification;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		093D782318F12BF700EF3012 /* HelloLocalNotification.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloLocalNotification.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		093D782618F12BF700EF3012 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		093D782918F12BF700EF3012 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		093D782A18F12BF700EF3012 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		093D782B18F12BF700EF3012 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		093D782E18F12BF700EF3012 /* HelloLocalNotification-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HelloLocalNotification-Info.plist"; sourceTree = "<group>"; };
+		093D783018F12BF700EF3012 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		093D783218F12BF700EF3012 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		093D783418F12BF700EF3012 /* HelloLocalNotification-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HelloLocalNotification-Prefix.pch"; sourceTree = "<group>"; };
+		093D783618F12BF700EF3012 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		093D783818F12BF700EF3012 /* bearAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = bearAppDelegate.h; sourceTree = "<group>"; };
+		093D783918F12BF700EF3012 /* bearAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = bearAppDelegate.m; sourceTree = "<group>"; };
+		093D783C18F12BF700EF3012 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		093D783E18F12BF700EF3012 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		093D784418F12BF700EF3012 /* HelloLocalNotificationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloLocalNotificationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		093D784518F12BF700EF3012 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		093D784C18F12BF700EF3012 /* HelloLocalNotificationTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HelloLocalNotificationTests-Info.plist"; sourceTree = "<group>"; };
+		093D784E18F12BF700EF3012 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		093D785018F12BF700EF3012 /* HelloLocalNotificationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloLocalNotificationTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		093D782018F12BF700EF3012 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				093D782718F12BF700EF3012 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		093D784118F12BF700EF3012 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				093D784718F12BF700EF3012 /* Cocoa.framework in Frameworks */,
+				093D784618F12BF700EF3012 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		093D781A18F12BF700EF3012 = {
+			isa = PBXGroup;
+			children = (
+				093D782C18F12BF700EF3012 /* HelloLocalNotification */,
+				093D784A18F12BF700EF3012 /* HelloLocalNotificationTests */,
+				093D782518F12BF700EF3012 /* Frameworks */,
+				093D782418F12BF700EF3012 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		093D782418F12BF700EF3012 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				093D782318F12BF700EF3012 /* HelloLocalNotification.app */,
+				093D784418F12BF700EF3012 /* HelloLocalNotificationTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		093D782518F12BF700EF3012 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				093D782618F12BF700EF3012 /* Cocoa.framework */,
+				093D784518F12BF700EF3012 /* XCTest.framework */,
+				093D782818F12BF700EF3012 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		093D782818F12BF700EF3012 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				093D782918F12BF700EF3012 /* AppKit.framework */,
+				093D782A18F12BF700EF3012 /* CoreData.framework */,
+				093D782B18F12BF700EF3012 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		093D782C18F12BF700EF3012 /* HelloLocalNotification */ = {
+			isa = PBXGroup;
+			children = (
+				093D783818F12BF700EF3012 /* bearAppDelegate.h */,
+				093D783918F12BF700EF3012 /* bearAppDelegate.m */,
+				093D783B18F12BF700EF3012 /* MainMenu.xib */,
+				093D783E18F12BF700EF3012 /* Images.xcassets */,
+				093D782D18F12BF700EF3012 /* Supporting Files */,
+			);
+			path = HelloLocalNotification;
+			sourceTree = "<group>";
+		};
+		093D782D18F12BF700EF3012 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				093D782E18F12BF700EF3012 /* HelloLocalNotification-Info.plist */,
+				093D782F18F12BF700EF3012 /* InfoPlist.strings */,
+				093D783218F12BF700EF3012 /* main.m */,
+				093D783418F12BF700EF3012 /* HelloLocalNotification-Prefix.pch */,
+				093D783518F12BF700EF3012 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		093D784A18F12BF700EF3012 /* HelloLocalNotificationTests */ = {
+			isa = PBXGroup;
+			children = (
+				093D785018F12BF700EF3012 /* HelloLocalNotificationTests.m */,
+				093D784B18F12BF700EF3012 /* Supporting Files */,
+			);
+			path = HelloLocalNotificationTests;
+			sourceTree = "<group>";
+		};
+		093D784B18F12BF700EF3012 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				093D784C18F12BF700EF3012 /* HelloLocalNotificationTests-Info.plist */,
+				093D784D18F12BF700EF3012 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		093D782218F12BF700EF3012 /* HelloLocalNotification */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 093D785418F12BF700EF3012 /* Build configuration list for PBXNativeTarget "HelloLocalNotification" */;
+			buildPhases = (
+				093D781F18F12BF700EF3012 /* Sources */,
+				093D782018F12BF700EF3012 /* Frameworks */,
+				093D782118F12BF700EF3012 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HelloLocalNotification;
+			productName = HelloLocalNotification;
+			productReference = 093D782318F12BF700EF3012 /* HelloLocalNotification.app */;
+			productType = "com.apple.product-type.application";
+		};
+		093D784318F12BF700EF3012 /* HelloLocalNotificationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 093D785718F12BF700EF3012 /* Build configuration list for PBXNativeTarget "HelloLocalNotificationTests" */;
+			buildPhases = (
+				093D784018F12BF700EF3012 /* Sources */,
+				093D784118F12BF700EF3012 /* Frameworks */,
+				093D784218F12BF700EF3012 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				093D784918F12BF700EF3012 /* PBXTargetDependency */,
+			);
+			name = HelloLocalNotificationTests;
+			productName = HelloLocalNotificationTests;
+			productReference = 093D784418F12BF700EF3012 /* HelloLocalNotificationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		093D781B18F12BF700EF3012 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = bear;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = TakoBear;
+				TargetAttributes = {
+					093D784318F12BF700EF3012 = {
+						TestTargetID = 093D782218F12BF700EF3012;
+					};
+				};
+			};
+			buildConfigurationList = 093D781E18F12BF700EF3012 /* Build configuration list for PBXProject "HelloLocalNotification" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 093D781A18F12BF700EF3012;
+			productRefGroup = 093D782418F12BF700EF3012 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				093D782218F12BF700EF3012 /* HelloLocalNotification */,
+				093D784318F12BF700EF3012 /* HelloLocalNotificationTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		093D782118F12BF700EF3012 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				093D783118F12BF700EF3012 /* InfoPlist.strings in Resources */,
+				093D783F18F12BF700EF3012 /* Images.xcassets in Resources */,
+				093D783718F12BF700EF3012 /* Credits.rtf in Resources */,
+				093D783D18F12BF700EF3012 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		093D784218F12BF700EF3012 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				093D784F18F12BF700EF3012 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		093D781F18F12BF700EF3012 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				093D783A18F12BF700EF3012 /* bearAppDelegate.m in Sources */,
+				093D783318F12BF700EF3012 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		093D784018F12BF700EF3012 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				093D785118F12BF700EF3012 /* HelloLocalNotificationTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		093D784918F12BF700EF3012 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 093D782218F12BF700EF3012 /* HelloLocalNotification */;
+			targetProxy = 093D784818F12BF700EF3012 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		093D782F18F12BF700EF3012 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				093D783018F12BF700EF3012 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		093D783518F12BF700EF3012 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				093D783618F12BF700EF3012 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		093D783B18F12BF700EF3012 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				093D783C18F12BF700EF3012 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		093D784D18F12BF700EF3012 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				093D784E18F12BF700EF3012 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		093D785218F12BF700EF3012 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		093D785318F12BF700EF3012 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		093D785518F12BF700EF3012 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HelloLocalNotification/HelloLocalNotification-Prefix.pch";
+				INFOPLIST_FILE = "HelloLocalNotification/HelloLocalNotification-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		093D785618F12BF700EF3012 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HelloLocalNotification/HelloLocalNotification-Prefix.pch";
+				INFOPLIST_FILE = "HelloLocalNotification/HelloLocalNotification-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		093D785818F12BF700EF3012 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HelloLocalNotification.app/Contents/MacOS/HelloLocalNotification";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HelloLocalNotification/HelloLocalNotification-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "HelloLocalNotificationTests/HelloLocalNotificationTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		093D785918F12BF700EF3012 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HelloLocalNotification.app/Contents/MacOS/HelloLocalNotification";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HelloLocalNotification/HelloLocalNotification-Prefix.pch";
+				INFOPLIST_FILE = "HelloLocalNotificationTests/HelloLocalNotificationTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		093D781E18F12BF700EF3012 /* Build configuration list for PBXProject "HelloLocalNotification" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				093D785218F12BF700EF3012 /* Debug */,
+				093D785318F12BF700EF3012 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		093D785418F12BF700EF3012 /* Build configuration list for PBXNativeTarget "HelloLocalNotification" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				093D785518F12BF700EF3012 /* Debug */,
+				093D785618F12BF700EF3012 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		093D785718F12BF700EF3012 /* Build configuration list for PBXNativeTarget "HelloLocalNotificationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				093D785818F12BF700EF3012 /* Debug */,
+				093D785918F12BF700EF3012 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 093D781B18F12BF700EF3012 /* Project object */;
+}
